@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.maindiv{
+  height: 100%;
+  width: 100%;
+  background-color:white;
+}
+.childdiv
+{
+  height: 60px;
+  width: 100%;
+  background-color: rgb(197, 35, 23);
+}
+p{
+  text-align: center;
+  margin-top: 20px;
+}
+input
+{
+margin-left: 40%;
+margin-top: 20px;
+}
+.logout{
+  margin-top: 19px;
+}
+.slotbutton
+{
+  background-color:white;
+  border:solid #e6e9ef;
+  color: #e6e9ef;
+  padding:3px ;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2px 3px;
+  border-radius: 5px;
+  margin: 5px;
+  
+  
+}
+.slotbuttondiv{
+  margin-left: 29%;
+  margin-top: 30px;
+
+}
+.calendar{
+  width: 40%;
+
+}
+.form-group{
+  padding:10px;
+  border:2px solid;
+  margin:10px;
+}
+.form-group>label{
+  position:absolute;
+  top:-1px;
+  left:20px;
+  background-color:white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form-group>input{
+  border:none;
+}
+.calendar{
+margin-left: 37%;
+margin-top: 20px;
+}
+#slotbutton
+{
+  margin-left: 24%;
+}
+.book
+{
+  background-color:rgb(197, 35, 23); 
+  margin-top: 20px;
+  margin-left: 42%;
+  border:none;
+  color:white;
+  padding:10px;
+}
+#butto{
+  padding-left:7px;
+  padding-right: 7px;
+
+}
+select {
+  size:35;
+  width: 23.25%;
+  font-size: auto;
+  margin-left: 40%;
+  padding: 4px;
+  padding-left: 0;
+  
 }
