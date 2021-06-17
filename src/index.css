@@ -2,6 +2,7 @@
   height: 100%;
   width: 100%;
   background-color:white;
+  text-align: center;
 }
 .childdiv
 {
@@ -15,11 +16,13 @@ p{
 }
 input
 {
-margin-left: 40%;
+
 margin-top: 20px;
+width: 23.25%;
 }
 .logout{
   margin-top: 19px;
+  float:left ;
 }
 .slotbutton
 {
@@ -36,8 +39,9 @@ margin-top: 20px;
   
 }
 .slotbuttondiv{
-  margin-left: 29%;
+ 
   margin-top: 30px;
+  text-align: center;
 
 }
 .calendar{
@@ -62,16 +66,17 @@ margin-top: 20px;
 .calendar{
 margin-left: 37%;
 margin-top: 20px;
+
 }
 #slotbutton
 {
-  margin-left: 24%;
+  
 }
 .book
 {
   background-color:rgb(197, 35, 23); 
   margin-top: 20px;
-  margin-left: 42%;
+  text-align: center;
   border:none;
   color:white;
   padding:10px;
@@ -85,7 +90,7 @@ select {
   size:35;
   width: 23.25%;
   font-size: auto;
-  margin-left: 40%;
+  
   padding: 4px;
   padding-left: 0;
   

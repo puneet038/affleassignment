@@ -8,11 +8,8 @@ import './App.css';
 
 function App() {
   const [value, onChange] = useState(new Date());
-  const test=()=>
-  {
-    console.log(value.toDateString());
-    console.log(typeof(value.toDateString()));
-  }
+  
+
   return (
     <div >
               <div className="maindiv">
@@ -23,7 +20,7 @@ function App() {
                     <p><b>Meeting Room Booking</b></p>
                     <select id="pet-select">
                    <option value="" size="35">Training Room</option>   
-                  </select>
+                  </select><br/>
                       <input type="text" placeholder="Entre your  Room" size="35"></input><br></br>
                       <input type="text" placeholder="Entre Meeting description" size="35"></input><br></br>
                      
@@ -34,7 +31,7 @@ function App() {
                     />
 
                    </div>
-                   <button onClick={test}></button>
+                   
                    <p>{value.toDateString()}</p>
                       <div>
                         
@@ -62,12 +59,12 @@ function App() {
                         <button id="butto" className="slotbutton">7:00 PM</button>
                         <br/><br/>
                         <button id="slotbutton" className="slotbutton">10:00 AM</button>
+                        <br/><br/><br/>
+                        <button className="book">BOOK APPOINTMENT</button>
 
                         </div>
                       </div>
-                      <div>
-                        <button className="book">BOOK APPOINTMENT</button>
-                      </div>
+                      
                       <br/> <br/> <br/> <br/> <br/> <br/>
                       
               </div>
